@@ -1,8 +1,8 @@
+cabal-version:        2.4
 name:                 ormolu
 version:              0.0.1.0
-cabal-version:        1.18
 tested-with:          GHC==8.6.4
-license:              BSD3
+license:              BSD-3-Clause
 license-file:         LICENSE.md
 maintainer:           Mark Karpov <mark.karpov@tweag.io>
 homepage:             https://github.com/tweag/ormolu
@@ -15,16 +15,7 @@ extra-doc-files:      CONTRIBUTING.md
                     , CHANGELOG.md
                     , DESIGN.md
                     , README.md
-data-files:           data/examples/declaration/data/*.hs
-                    , data/examples/declaration/data/gadt/*.hs
-                    , data/examples/declaration/type-families/closed-type-family/*.hs
-                    , data/examples/declaration/type-families/data-family/*.hs
-                    , data/examples/declaration/type-families/type-family/*.hs
-                    , data/examples/declaration/type-synonyms/*.hs
-                    , data/examples/import/*.hs
-                    , data/examples/module-header/*.hs
-                    , data/examples/other/*.hs
-                    , data/printer/*.hs
+data-files:           data/**/*.hs
 
 source-repository head
   type:               git
